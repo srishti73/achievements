@@ -1,0 +1,750 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    position: relative;
+    height: 2480px;
+    background: #FFFFFF;
+    }
+    
+
+.head-ach{
+ position: absolute;
+width: 0.184vw ;
+height:  0.5rem !important;
+left: -5rem !important;
+top: 13rem;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 6rem !important;
+line-height: 7.5rem;
+color: #434343;
+}
+.trophy{
+    position: absolute;
+width: 35.625rem;
+height: 59rem;
+left: 11.8125rem;
+top: 95px;
+
+}
+.logo{
+position: absolute;
+width: 12.5rem;
+height: 4.5rem;
+left: 28.5375rem;
+top: 17.3125rem;
+}
+.tagline-ach{
+    position: absolute;
+    width: 34.1875rem;
+    height: 2.8125rem;
+    left: -2.5rem !important;
+    top: 21rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 100%;
+    line-height: 1.25rem;
+    color: #000000 ;
+    text-align: center;
+}
+.card-body{
+    position: absolute;
+width: 41rem;
+height: 18.125rem;
+left: -4rem !important;
+top: 46.5625rem;
+background: #FFFFFF;
+box-shadow: 0rem 0.25rem 1.875rem rgba(0, 0, 0, 0.25);
+border-radius: 3.125rem;
+}
+.card-img-top{
+    position: absolute;
+width: 41rem;
+height: 15.9375rem;
+left: -4rem !important;
+top: 30.625rem;
+border-radius: 3.125rem;
+}
+.card-title{
+    position: absolute;
+width: 80%;
+height: 2.05rem;
+left: 10%;
+top: 2.5rem;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 270%;
+line-height: 1.85rem;
+text-align: center;
+color: #404040;
+}
+.card-text{
+    position: absolute;
+width: 90%;
+height: 0.44rem;
+left: 5%;
+top: 35%;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 115%;
+line-height: 150%;
+text-align: center;
+color: #434343;
+}
+.card-link-ach{
+    position: absolute;
+width: 25%;
+height: 100px;
+left: 40%;
+top: 75%;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 130%;
+line-height: 50%;
+color: #1B98E0;
+}
+.cards .card-body-sub{
+    position: absolute;
+    width: 21.9rem;
+    height: 8rem;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius:3.4rem;
+    background: #FFFFFF;
+}
+.cards .card-img-top-sub{
+    position: absolute;
+width:21.9rem;
+height: 8rem;
+border-radius: 3.4rem;
+}
+.left-ach{
+    left:-6rem;
+}
+.mid-ach{
+    left: 0rem;
+}
+.right-ach{
+    left: 6rem;
+}
+.acleft .card-img-top-sub, 
+.acmid .card-img-top-sub, 
+.acright .card-img-top-sub{   
+top: 77.2rem;
+}
+.acleft .card-body-sub,
+.acmid .card-body-sub,
+.acright .card-body-sub{
+    top: 85.2rem;
+    }
+
+    .acleft1 .card-img-top-sub, 
+.acmid1 .card-img-top-sub, 
+.acright1 .card-img-top-sub{   
+top: 99.5rem;
+}
+.acleft1 .card-body-sub,
+.acmid1 .card-body-sub,
+.acright1 .card-body-sub{
+    top: 107.5rem;
+    }
+.card-title-sub{
+    position: absolute;
+width: 18rem;
+height:24.37px;
+left: 2rem;
+top:0.5rem;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size:1rem;
+line-height: 2rem;
+text-align: center;
+color: #404040;
+}
+.card-text-sub{
+position: absolute;
+width: 17rem;
+height: 112.66px;
+left: 2.5rem;
+top: 2.5rem;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 0.8rem;
+line-height: 0.9rem;
+text-align: center;
+color: #434343;
+}
+.card-link-ach-sub{
+    position: absolute;
+width:7rem;
+height: 18px;
+left: 8rem;
+top: 6.5rem;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height:1rem;
+color: #1B98E0;
+
+}
+
+
+@media screen and (max-width:1460px) {
+    .row .col-md-4{
+        left:0.5rem !important;
+    }
+    .cardbig{
+        left:-3.5rem;
+    }
+}
+@media screen and (max-width:1400px)
+{
+    .left-ach{
+        left:-3rem;
+    }
+    .mid-ach{
+        left:1.5rem;
+    }
+    .right-ach{
+        left:6rem;
+    }
+    .intro{
+        left:1rem !important;
+    }
+    .tagline-ach{
+        left:4.5rem !important;
+    }
+    .cardbig{
+        left:1rem !important;
+    }
+}
+
+@media screen and (max-width:1330px) {
+   .left-ach{
+       left:-1rem;
+   }
+   .mid-ach{
+       left:2.5rem;
+   }
+    .cardbig{
+        left:1rem !important;
+    }
+    .head-ach{
+        left:0rem !important;
+    }
+    .tagline-ach{
+        left:2.5rem !important;
+    }
+}
+@media screen and (max-width:1265px)
+{
+    .intro{
+        left:4rem;
+    }
+    .cardbig{
+        left:2.5rem;
+    }
+    .left-ach{
+        left:0rem;
+    }
+    .mid-ach{
+        left:3rem;
+    }
+    .right-ach{
+        left:6rem;
+    }
+}
+
+@media screen and (max-width:1200px) 
+{
+    .head-ach{
+        left:-3rem !important;
+    }
+    .tagline-ach{
+        left:1rem !important;
+    }
+    .cardbig{
+        left:-3rem !important;
+    }
+    
+    .left-ach{
+        left:-4rem;
+    }
+    .mid-ach{
+        left:2rem;
+    }
+    .right-ach{
+        left:8rem;
+    }
+
+}
+@media screen and (max-width:1130px)
+{
+    .head-ach{
+        font-size: 5rem !important;
+        left:2.5rem !important;
+    }
+    .tagline-ach{
+        left:2.3rem !important;
+    }
+    .cardbig{
+        left:0rem !important;
+    }
+    .left-ach{
+        left:-1rem;
+    }
+    .mid-ach{
+        left:3.5rem;
+    }
+    .right-ach{
+        left:8rem;
+    }
+}
+@media screen and (max-width:1010px)
+{
+    .card-body{
+        width:38rem;
+        height:17rem;
+        top:48.6rem;
+    }
+    .card-img-top{
+        width:38rem;
+        height:18rem;
+    }
+    .cardbig{
+        left:3rem !important;
+    }
+    .head-ach{
+        left:5rem !important;
+    }
+    .tagline-ach{
+        left:5rem !important;
+    }
+    .right-ach{
+        left:9.5rem;
+    }
+    .mid-ach{
+        left:5.5rem;
+    }
+    .left-ach{
+        left:1.5em;
+    }
+
+}
+@media screen and (max-width:992px)
+{
+    .head-ach{
+        left:0rem !important;
+    }
+    .tagline-ach{
+        left:0rem !important;
+    }
+    .cardbig{
+        left:-3rem !important;
+    }
+    .card-text {
+        top:8rem;
+        left:4rem;
+    }
+    .right-ach{
+        left:12rem;
+    }
+    .mid-ach{
+        left:3.5rem;
+    }
+    .left-ach{
+        left:-5em;
+    }
+    .card-text-sub{
+        top:3.5rem;
+        left:4rem;
+    }
+}
+@media screen and (max-width:901px)
+{
+    .card-body{
+        top:48.2rem;
+        width:35rem;
+    }
+    .card-img-top{
+        width:35rem;
+    }
+    .cardbig{
+        left:-1rem !important;
+    }
+    .card-title{
+        width:30rem;
+    }
+    .card-text{
+        top:7rem;
+    }
+    .acleft .card-img-top-sub,
+    .acmid .card-img-top-sub,
+    .acright .card-img-top-sub{
+        top:77.5rem;
+    }
+    .acleft1 .card-img-top-sub,
+    .acmid1 .card-img-top-sub,
+    .acright1 .card-img-top-sub{
+        top:99.8rem;
+    }
+    .right-ach{
+        left: 14rem;
+    }
+    .mid-ach{
+        left:5rem;
+    }
+    .left-ach{
+        left:-4rem;
+    }
+    .card-text-sub{
+        top:2.5rem;
+    }
+}
+@media screen and (max-width:840px)
+{
+    .mid-ach{
+        left:20rem;
+    }
+    .left-ach{
+        left:6rem;
+    }
+    .acright{
+        left:-24rem;
+        top:45rem;
+    }
+    .acright1{
+        left:5rem;
+        top:22.6rem;
+    }
+    .cardbig{
+        left:0rem !important;
+    }
+    .head-ach{
+        left:1rem !important;
+    }
+    .tagline-ach{
+        left:2rem !important;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .images{
+        width:0rem;
+    }
+    .head-ach{
+        font-size: 7rem !important;
+        left:3.5rem !important;
+        top:7rem;
+    }
+    .tagline-ach{
+        font-size: 1.5rem;
+        width:48rem;
+        left:7.3rem !important;
+        top:18rem;
+    }
+    .cardbig{
+        left:9rem !important;
+    }
+    .card-img-top{
+        top:30.8rem;
+    }
+    .left-ach{
+        left:1rem;
+    }
+    .mid-ach{
+        left:27rem;
+    }
+    .acright{
+        left:1rem;
+    }
+    .acright1{
+        left:27rem;
+    }
+    .acleft .card-img-top-sub,
+    .acmid .card-img-top-sub{
+        top:77.8rem;
+    }
+    .acleft1 .card-img-top-sub,
+    .acmid1 .card-img-top-sub{
+        top: 100.1rem;
+    }
+    .acright .card-img-top-sub{
+        top:77.8rem;
+    }
+    .card-text{
+        left:7rem;
+    }
+    
+    .card-text-sub{
+        left:5.5rem;
+    }
+    .acright1 .card-img-top-sub{
+        top:99.85rem;
+       
+    }
+    .acright1 .card-body-sub{
+        
+        top:107.2rem;
+    }
+}
+@media screen and (max-width:685px)
+{
+    .cardbig{
+        margin-left:1.5rem;
+    }
+    .head-ach{
+        margin-left:-1rem;
+    }
+    .tagline-ach{
+        margin-left:-3.5rem;
+    }
+    .left-ach ,.acright{
+        margin-left:2rem;
+    }
+    .mid-ach , .acright1{
+        margin-left:2rem;
+    }
+    
+}
+@media screen and (max-width:655px)
+{
+    .head-ach{
+        font-size:7rem !important;
+        margin-left:0rem !important;
+    }
+    .tagline-ach{
+        margin-left:-2.5rem !important;
+    }
+    .cardbig{
+        margin-left:2rem !important;
+    }
+    .card-text{
+        left:6rem;
+    }
+    .left-ach{
+        margin-left:1rem;
+    }
+    .mid-ach{
+        margin-left:3rem;
+        
+    }
+    .acright1{
+        margin-left:3rem;
+    }
+    .acright {
+        margin-left:1rem;
+    }
+}
+@media  screen and (max-width:601px) {
+    .cardbig{
+        margin-left:2.5rem !important;
+    }
+    .card-text-sub{
+        margin-left:-3rem;
+    }
+    .card-text{
+        margin-left:-4rem;
+    }
+    .left-ach , .acright{
+        margin-left:3rem;
+    }
+}
+@media screen and (max-width:577px)
+{
+    .head-ach{
+        margin-left:1rem !important;
+    }
+    .tagline-ach{
+        margin-left:-2rem !important;
+        top:28rem;
+    }
+    .card-text{
+        top:16rem !important;
+    }
+    .card-text-sub{
+        top:9rem;
+    }
+    .cardbig{
+        margin-left: 3rem !important;
+    }
+}
+@media screen and (max-width:495px)
+{
+    .cardbig{
+        margin-left:2rem !important;
+    }
+    .head-ach{
+        font-size:6.5rem !important;
+            margin-left:1.5rem !important;
+        
+    }
+    .tagline-ach{
+        width:40rem;
+        margin-left: 1rem !important;
+
+        
+    }
+    .mid-ach , .acright1{
+        margin-left:1.5rem;
+    }
+}
+@media screen and (max-width:476px)
+{
+    .cardbig{
+        left:8.5rem !important;
+    }
+    .left-ach , .acright{
+        margin-left:2rem;
+    }
+    .mid-ach , .acright1{
+        margin-left:1.5rem;
+    }
+}
+@media screen and (max-width:455px)
+{
+    .head-ach{
+        margin-left:0rem !important;
+    }
+    .tagline-ach{
+        margin-left:-1rem !important;
+    }
+    .cardbig{
+        margin-left:1rem !important;
+    }
+    .left-ach, .acright{
+        margin-left:0.9rem;
+    }
+    .mid-ach, .acright1{
+        margin-left:0.9rem;
+    }
+    .card-text-sub{
+        top:9.4rem;
+    }
+}
+@media screen and (max-width:436px)
+{
+    .cardbig{
+        margin-left:1rem !important;
+    }
+    .acright1 , .mid-ach{
+        margin-left:0rem;
+    }
+}
+@media screen and (max-width:421px)
+{
+    .cardbig{
+        margin-left:0.3rem !important;
+    }
+    .acright1, .mid-ach{
+        margin-left:-1rem;
+    }
+}
+@media screen and (max-width:401px)
+{
+    .head-ach{
+        font-size:6rem !important;
+        margin-left:0rem !important;
+    }
+    .tagline-ach{
+        top:25rem;
+        margin-left:-2rem !important;
+    }
+    .cardbig{
+        margin-left: -0.5rem !important;
+    }
+    .left-ach, .acright{
+        margin-left:0.1rem;
+    }
+    .mid-ach , .acright1{
+        margin-left:-1.5rem !important;
+    }
+}
+@media screen and (max-width:391px)
+{
+    .cardbig{
+
+        margin-left:-0.5rem !important;
+    }
+    .acrigh1 , .mid-ach{
+        margin-left:-2rem !important;
+    }
+}
+@media screen and (max-width:381px)
+{
+    .cardbig{
+
+        margin-left:-0.9rem !important;
+    }
+    .acrigh1 , .mid-ach{
+        margin-left:-2.5rem !important;
+    }
+}
+@media screen and (max-width:371px)
+{
+    .cardbig{
+        margin-left:-1.2rem !important;
+    }
+    .left-ach ,.acright{
+        margin-left:-0.5rem;
+    }
+}
+@media screen and (max-width:361px)
+{
+    .cardbig{
+        margin-left:-7% !important;
+    }
+    .left-ach , .acright{
+        margin-left:-4%;
+    }
+    .mid-ach , .acright1{
+        margin-left:-15% !important;
+    }
+}
+@media screen and (max-width:351px)
+{
+    .mid-ach , .acright1{
+        margin-left:-3.5rem !important;
+    }
+}
+
+@media screen and (max-width:341px)
+{
+    .left-ach , .acright{
+        margin-left:-1rem !important;
+    }
+    .cardbig{
+        margin-left: -2rem !important;
+    }
+    
+    .mid-ach , .acright1{
+        margin-left:-4rem !important;
+    }
+    .tagline-ach{
+        margin-left:-3.5rem !important;
+    }
+    .head-ach{
+        margin-left: -1rem !important;
+    }
+}
+@media screen and (max-width:331px)
+{
+    .cardbig{
+    margin-left:-2.5rem !important;
+    }
+    .left-ach , .acright{
+        margin-left:-1.5rem !important;
+    }
+    .mid-ach , .acright1{
+        margin-left:-4.3rem !important;
+    }
+}
