@@ -244,6 +244,9 @@ color: #1B98E0;
     .tagline-ach{
         left:2.5rem !important;
     }
+    .card{
+        border:none !important;
+    }
 }
 @media screen and (max-width:1265px)
 {
